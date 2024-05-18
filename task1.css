@@ -1,0 +1,272 @@
+body{
+    margin: 0px;
+    background-color: hsl(0, 0%, 92%);
+    font-family: Arial, sans-serif;
+}
+header{
+    text-align: center;
+    height: 80px;
+    background-color: rgb(0, 0, 0)
+}
+h1{
+    font-size: 2em;
+    color: white;
+}
+header .title{
+    font-size:2em;
+    color: white;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    overflow: hidden;
+    height: 40px;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    color:black;
+    font-size: 1.5em;
+}
+
+.navbar li{
+    float: left;
+   
+}
+.navbar li a:hover {
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 49%);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.search-icon {
+    position: relative;
+    float: right;
+    size: 20px;
+}
+
+
+.current{
+    color:white;
+    background-color: black;
+    padding:12px;
+    margin: 0px;
+
+}
+.fa-calendar{
+    margin-right: 3px;
+}
+.fa-bolt-lightning{
+    margin:4px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+.line1{
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 2%, 77%);
+    height: 30px;
+    justify-content: space-between;
+
+}
+
+.temp{
+    text-align:right;
+    color: hsl(0, 0%, 31%);
+    white-space: nowrap;
+}
+.breaking{
+   
+   text-align: left;
+}
+main {
+    display: flex;
+    margin: 20px 0;
+    margin-left:20px;
+    
+}
+
+.featured-articles {
+     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 70%;
+    justify-content: flex-start;
+}
+
+.author {
+    color: white; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    width: 8ch; 
+    display: inline-block; 
+    text-align: center;
+
+}
+.auth{
+    display:block;
+}
+
+.featured {
+    position: relative; 
+    overflow: hidden; 
+    margin-bottom: 20px; 
+    box-sizing: border-box;
+}
+#featured1{
+    height:500px;
+    width: 45%;
+}
+
+#featured2{
+    width:25%;
+    height:500px;
+}
+#featured3{
+    width:100%;
+    height: 240px;
+}
+#featured4{
+    width:100%;
+    height: 240px;
+}
+.featured img {
+    width:100%;
+    height:100%;
+    border-radius: 8px;
+    display:block;
+}
+.featured .overlay {
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    padding: 10px; 
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+}
+.featured .overlay h2 {
+    margin: 0; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.article-content {
+    padding: 20px;
+    
+    color: black;
+}
+section{
+    width: 70%;
+    float: left;
+}
+.box{
+    border-radius: 8px;
+    align-items:end;
+    vertical-align: bottom;
+}
+.category{
+    background-color: black;
+    border-radius: 5px;
+    font-size: small;
+    color:white;
+    padding: 5px;
+}
+.article-content h2 {
+    margin: 0 0 10px;
+}
+
+
+
+
+
+
+
+
+aside{
+    width: 30%;
+    float: right;
+    margin-right: none;
+}
+#tab{
+    border-radius:5px;
+}
+
+
+.tab-label {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab-label:hover {
+    background-color: hsl(0, 0%, 87%);
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + .tab-label {
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+}
+
+#latest.tab-content {
+    display: block;
+}
+.sidebarimg{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.container{
+    border:2px ;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    margin-right:20px;
+    margin-top: 5px;
+    
+}
+.sidebar-article {
+    display: flex;
+    align-items: flex-start;
+    flex:1;
+    margin-bottom: 10px;
+}
+
+.sidebar-article .date {
+    color: hsl(0, 0%, 47%);
+    display: block;
+}
+aside h3 {
+    display: block;
+}
+.sidebar-article .content {
+    display: flex;
+    flex-direction: column;
+}

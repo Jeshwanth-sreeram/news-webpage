@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task1.css">
+    <script src="https://kit.fontawesome.com/1b25b487b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1><span class="title">T</span>HE<span class="title">N</span>EWS<span class="title">H</span>IVE</h1>
+
+    </header>
+    <nav class="navbar" id="navline">
+        <ul>
+            <li><a href="home.html"><span class="current">HOME</span></a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="world.html">WORLD</a></li>
+            <li><a href="business.html">BUSINESS</a></li>
+            <li><a href="politics.html">POLITICS</a></li>
+            <li><a href="entertainment.html">ENTERTAINMENT</a></li>
+            <li class="dropdown">
+                <a href="sports.html">SPORTS <i class="fas fa-caret-down"></i></a>
+                
+            </li>
+            <li class="search-icon">
+                <a href="javascript:void(0);" onclick="toggleSearchBar()"><i class="fas fa-search"></i></a>
+            </li>
+        </ul>
+        
+    </nav>
+
+
+    <div class="line1">
+    <div class="breaking"><p><i class="fa-solid fa-bolt-lightning"></i>BREAKING NEWS           Local coming back on the street again after</p>   </div>
+    <div class="temp"><i class="fa-solid fa-cloud-moon-rain"></i>,Septermber 14,2023 in</div>
+    </div>
+    <main>
+       
+        <section class="featured-articles">
+            <article class="featured" id="featured1">
+                <img src="newspaper.jpeg" alt="Reading newspapers">
+                <div class="article-content overlay">
+                    <span class="category">Culture</span>
+                    <span class="category">featured</span>
+                    <h2>Why reading newspapers are more important than ever</h2>
+                    <div class="auth"><span class="author">Themegueard</span></div>
+                    <i class="fa-regular fa-calendar"></i><span class="date">October 18, 2022</span>
+                </div>
+            </article>
+            <article class="featured" id="featured2">
+                <img src="jane.jpg" alt="Jane">
+                <div class="article-content overlay">
+                    <span class="category">featured</span>
+                    <span class="category">Lifestyle</span>
+                    <h2>Jane became one of the most...</h2>
+                    <div class="auth"><span class="author">Themegueard</span></div>
+                    <i class="fa-regular fa-calendar"></i><span class="date">October 18, 2022</span>
+                </div>
+            </article><div class="column">
+            <article class="featured" id="featured3">
+                <img src="coffee.jpeg" alt="Best coffee">
+                <div class="article-content overlay">
+                    <span class="category">Food</span>
+                    <span class="category">featured</span>
+                    <h2>What are the best type coffee in the...</h2>
+                    <div class="auth"><span class="author">Themegueard</span></div>
+                    <i class="fa-regular fa-calendar"></i><span class="date">October 18, 2022</span>
+                </div>
+            </article>
+            <article class="featured" id="featured4">
+                <img src="gratitude.jpg" alt="Practicing gratitude">
+                <div class="article-content overlay">
+                    <span class="category">Health</span>
+                    <span class="category">featured</span>
+                    <h2>Practicing gratitude regularly can make...</h2>
+                    <div class="auth"><span class="author">Themegueard</span></div>
+                    <i class="fa-regular fa-calendar"></i><span class="date">October 18, 2022</span>
+                </div></div>
+            </article>
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <aside >
+            <div class="tabs">
+                <input type="radio" id="latest-tab" name="tab" checked>
+                <label for="latest-tab" class="tab-label">Latest</label>
+                <input type="radio" id="popular-tab" name="tab">
+                <label for="popular-tab" class="tab-label">Popular</label></div>
+        
+        <div class="tab-content" id="latest">
+            <article class="sidebar-article container">
+                <img class="sidebarimg" src="stadium.jpeg" alt="stadium">
+                <div class="content">
+                <h3>ICC T20 World Cup 2022 Schedule update...</h3>
+                <span class="date">October 21, 2022</span>
+                </div>
+            </article>
+            <article class="sidebar-article container">
+                <img class="sidebarimg" src="thumb2.jpeg" alt="flood">
+                <div class="content">
+                <h3>Tropical depression: Mexico's pacific coast...</h3>
+                <span class="date">October 20, 2022</span>
+                </div>
+            </article>
+            <article class="sidebar-article container">
+                <img class="sidebarimg" src="thumb2.jpeg" alt="flood">
+                <div class="content">
+                <h3>Tropical depression: Mexico's pacific coast...</h3>
+                <span class="date">October 20, 2022</span>
+                </div>
+            </article>
+            <article class="sidebar-article container">
+                <img class="sidebarimg" src="thumb4.jpeg" alt="post flood">
+                <div class="content">
+                <h3>Local coming back on street again after...</h3>
+                <span class="date">October 18, 2022</span>
+                </div>
+            </article>
+        </div></aside>
+    </main>
+    
+
+</body>
+</html>
